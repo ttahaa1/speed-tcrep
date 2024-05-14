@@ -18,4 +18,4 @@ with TelegramClient(session_name, api_id, api_hash) as client:
         print("Sending link:", link)
         print("#(???? ??? ???????)mahmoud ??")
         client.send_message('@save_speed_bot', link)
-        time.sleep(50)
+        time.sleep(80)
