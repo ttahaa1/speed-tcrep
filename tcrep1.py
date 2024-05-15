@@ -31,7 +31,7 @@ for link in links:
             time.sleep(5)
         except Exception as e:
             print(f"Unexpected error: {e}. Retrying...")
-            time.sleep(5)
+            time.sleep(1)
     else:
         print(f"Failed to send link {link} after {retries} attempts.")
 
