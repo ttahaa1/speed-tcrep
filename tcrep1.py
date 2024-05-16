@@ -3,12 +3,12 @@ from pyrogram import Client, errors
 
 api_id = '22379637'
 api_hash = '7a5777d4bd0480856f9e7b129acc7a9f'
-session_string = 'BAFVfHUAoB_2VLY242pL_NfC5WZZP-xk0CB_8ddWdbQbIdGANJbd2QWU0y_A97m1NelotzdKoRMo6lZKtOysW9cX0WNDS47_s024HnqgXYqjtlJ737TGfRPyZAZPwslMTJMwz8caJ5xfAJD8-FzWyxIK5Nrx7xJBk3PulAdyxxKskn2cC1zB7ZbByqEUiEmyvbOwUtqV4CM8YzSlwMC1k2VYEiuelyeUoaOEAXH2PG1OVtaFGRdtvWx6yI-gcW1pIT9KX8OrTn7Ic8Vw7L1P7dPfq9VzqcvPKskmUF6wx5YgKmFuQtF4L7henBXxkF02LygO-U7oM0zb0F8hX5phUc1FQyhkqAAAAAFcHHoOAA'
+session_string = 'BAFEO3QAgkEJI1MmV8sUSTdWXsAgpeJbXTHCPHFaonehGZd8flub_RgYgX8rOBTDKMYcp_NxyAHUzcxXx5Tm_9151SkT8ntmlodNYSmGPvYQJizS0zbuHU6nZCjhKwWbfdBbEP9ez6x94nmf_lb6bWygn4J5Jv5A8709NUtmKpldhhg3P8Z0TSHYr2q3N9GvDriaoylnKOX-4Y8LiMpIolAJxI1TkB2JXDz8UhrIW_L-vQ51uh2oJB3x3EUDvY3nkF4Zg8NXhwlNYEzlSOpbe_JK4IefHZJUu-3_KFO7SNWAxlZLYTx_rR3VNDK1QR30J_VKpyJdLTf8_gQgTdb3PCYCzxBcoAAAAAGJ8ONCAA'
 
-start_number = 122
-end_number = 186
+start_number = 1
+end_number = 28  
 
-links = [f"https://t.me/c/2056146498/{i}" for i in range(start_number, end_number + 1)]
+links = [f"https://t.me/c/2027544784/{i}" for i in range(start_number, end_number + 1)]
 
 app = Client("my_account", api_id=api_id, api_hash=api_hash, session_string=session_string)
 
